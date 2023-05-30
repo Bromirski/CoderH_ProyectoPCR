@@ -76,10 +76,9 @@ body {
     background-color: bisque;
     font-family: sans-serif;
     color: black;
-    display: grid;
+    position: relative;
+    padding-bottom: 3em;
     min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-    /*padding-bottom: 3em;*/
 }
 
 /* Main*/
