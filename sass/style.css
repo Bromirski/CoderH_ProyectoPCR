@@ -131,16 +131,6 @@ main {
   margin: 10px auto;
 }
 
-/*
-.img-services{
-    font-size: 40px;
-    margin: 20px auto;
-    padding: 20px;
-    height: 80px;
-    width: 80px;
-    border: 1px solid white;
-    border-radius: 50%;
-} */
 /* Location */
 /* Contact */
 .container-form {
@@ -204,8 +194,7 @@ main {
 
 /* Footer */
 .container-footer {
-  bottom: 0%;
-  position: fixed;
+  bottom: auto;
   width: 100%;
   height: 100%;
   background: bisque;
