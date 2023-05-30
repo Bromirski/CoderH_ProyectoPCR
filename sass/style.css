@@ -204,10 +204,10 @@ main {
 
 /* Footer */
 .container-footer {
-  bottom: 0%;
+  bottom: auto;
   width: 100%;
   height: 100%;
-  background: bisque;
+  background: rgb(3, 3, 3);
   padding: 0 50px;
   margin-top: auto;
   text-align: center;
