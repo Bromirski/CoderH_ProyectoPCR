@@ -75,8 +75,9 @@ body {
   background-color: bisque;
   font-family: sans-serif;
   color: black;
-  position: relative;
+  display: grid;
   min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
   /*padding-bottom: 3em;*/
 }
 
@@ -93,9 +94,7 @@ main {
   justify-content: center;
   color: black;
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  background-color: bisque;
 }
-
 
 /*Boton*/
 .btn-secondary,
