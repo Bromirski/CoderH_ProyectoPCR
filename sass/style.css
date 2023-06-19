@@ -1,3 +1,4 @@
+@import url();
 * {
   margin: 0;
   padding: 0;
@@ -13,57 +14,6 @@
 a:link, a:visited, a:active {
   text-decoration: none;
   transition: 0.5s;
-}
-
-/* Header */
-header {
-  background-color: rgb(97, 165, 247);
-  min-height: 80px;
-  width: 100%;
-  padding: 10px;
-  position: fixed;
-  top: 0%;
-  z-index: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgb(97, 165, 247);
-  border-radius: 0 0 10px 10px;
-  border: 1px solid rgba(209, 213, 219, 0.3);
-}
-
-header .H-logo img {
-  display: flex;
-  height: 60px;
-  margin-right: 10px;
-}
-
-header nav ul li {
-  display: inline-block;
-}
-
-header nav ul li a {
-  font-size: 25px;
-  color: black;
-  margin-left: 30px;
-  border-radius: 5px;
-}
-
-.H-logo {
-  display: flex;
-  align-items: center;
-}
-
-nav a {
-  font-weight: 600;
-  padding-right: 10px;
-}
-
-nav a:hover {
-  color: white;
 }
 
 /* Body */
