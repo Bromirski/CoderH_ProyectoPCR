@@ -1,0 +1,22 @@
+/* Index*/
+
+.indexContainer{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: black;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, 0.5);
+}
+
+/*Boton*/
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color:bisque;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgb(83, 83, 83);
+  border: .05rem solid #fff;
+}
