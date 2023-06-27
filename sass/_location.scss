@@ -1,20 +1,22 @@
-.location{
+.container-location{
+    .location{
     margin: 10px auto;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+    }
 
-.location :after{
+    h2:after{
     content: "";
     background: black;
     display: block;
     width: 250px;
     height: 3px;
     margin: 10px auto;
-}
+    }
 
-.container-location p{
+    p{
     text-align: center;
+    }
 }
 
 .map{

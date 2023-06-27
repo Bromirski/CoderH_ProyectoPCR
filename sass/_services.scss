@@ -1,18 +1,19 @@
 .services{
     margin: 30px auto;
     text-align: center;
-}
 
-.container-services h1{
+    h1{
     font-family: sans-serif;
     letter-spacing: 1px;
-}
+    }
 
-.container-services h1::after{
+    h1::after{
     content: "";
     background: black;
     display: block;
     width: 250px;
     height: 3px;
     margin: 10px auto;
+    }
+
 }

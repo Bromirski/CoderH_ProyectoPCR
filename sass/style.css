@@ -33,35 +33,29 @@ header {
   border-radius: 0 0 10px 10px;
   border: 1px solid rgba(209, 213, 219, 0.3);
 }
-
 header .H-logo img {
   display: flex;
   height: 60px;
   margin-right: 10px;
 }
-
 header nav ul li {
   display: inline-block;
 }
-
 header nav ul li a {
   font-size: 25px;
   color: black;
   margin-left: 30px;
   border-radius: 5px;
 }
-
-.H-logo {
+header .H-logo {
   display: flex;
   align-items: center;
 }
-
-nav a {
+header nav a {
   font-weight: 600;
   padding-right: 10px;
 }
-
-nav a:hover {
+header nav a:hover {
   color: white;
 }
 
@@ -106,11 +100,9 @@ main {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .container-us p {
   margin-top: 10px;
 }
-
 .container-us h2::after {
   content: "";
   background: black;
@@ -119,7 +111,6 @@ main {
   height: 3px;
   margin: 15px auto;
 }
-
 .container-us img {
   margin-top: 10px;
 }
@@ -128,13 +119,11 @@ main {
   margin: 30px auto;
   text-align: center;
 }
-
-.container-services h1 {
+.services h1 {
   font-family: sans-serif;
   letter-spacing: 1px;
 }
-
-.container-services h1::after {
+.services h1::after {
   content: "";
   background: black;
   display: block;
@@ -143,13 +132,12 @@ main {
   margin: 10px auto;
 }
 
-.location {
+.container-location .location {
   margin: 10px auto;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-.location :after {
+.container-location h2:after {
   content: "";
   background: black;
   display: block;
@@ -157,7 +145,6 @@ main {
   height: 3px;
   margin: 10px auto;
 }
-
 .container-location p {
   text-align: center;
 }
@@ -176,31 +163,25 @@ main {
   grid-gap: 50px;
   margin-top: 90px;
 }
-
-.campo {
+.container-form .campo {
   margin-right: 8px;
 }
-
-.info-form {
+.container-form .info-form {
   margin-left: 8px;
 }
-
 .container-form h2 {
   margin-bottom: 15px;
   font-size: 35px;
 }
-
 .container-form p {
   font-size: 17px;
   line-height: 1.6;
   margin-bottom: 30px;
 }
-
 .container-form ul img {
   width: 20px;
   height: 20px;
 }
-
 .container-form ul {
   font-size: 17px;
   display: inline-block;
@@ -210,8 +191,7 @@ main {
   color: black;
   font-weight: 700;
 }
-
-.container-form div input, textarea {
+.container-form div input, .container-form textarea {
   width: 100%;
   padding: 10px 10px;
   font-size: 15px;
@@ -221,7 +201,6 @@ main {
   border-radius: 3px;
   outline: 0px;
 }
-
 .container-form .btn-enviar {
   padding: 15px;
   font-size: 16px;
@@ -243,27 +222,23 @@ footer {
   height: 40px;
   margin: 30px 0;
 }
-
-.container-footer {
+footer .container-footer {
   width: 100%;
   padding: 140px 30px 20px;
   bottom: 0;
   position: relative;
   height: 300px;
 }
-
-.redes-footer {
+footer .redes-footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.redes-footer a img {
+footer .redes-footer a img {
   width: 40px;
   height: 40px;
 }
-
-.redes-footer a {
+footer .redes-footer a {
   padding: 10px;
   margin: 50px;
   border-radius: 50%;
